@@ -1,0 +1,32 @@
+{
+  "item_definition": [
+    {
+      "id": "fibert1",
+      "name": "Fibers",
+      "tier": 1,
+      "reality": 1,
+      "types": ["t_fiber", "t_fiber_t1"]
+    },
+    {
+      "id": "fibert4",
+      "name": "Silk Threads",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_fiber", "t_fiber_t4"]
+    },
+    {
+      "id": "fibert5",
+      "name": "Wirefiber",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_fiber", "t_fiber_t5"]
+    },
+    {
+      "id": "fibert52",
+      "name": "Spinfiber",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_fiber", "t_fiber_t5", "t_fiber_t52"]
+    }
+  ]
+}

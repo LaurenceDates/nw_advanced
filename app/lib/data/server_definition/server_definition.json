@@ -1,0 +1,76 @@
+{
+  "server_definition": [
+    {
+      "name": "Isabella",
+      "world_set": "Westernesse Initia Nova",
+      "region": "US West",
+      "nwmp_server_no": 49
+    },
+    {
+      "name": "El Dorado",
+      "world_set": "Westernesse Theta",
+      "region": "US West",
+      "nwmp_server_no": 2
+    },
+    {
+      "name": "Lilith",
+      "world_set": "Arkadia Initia Nova",
+      "region": "US East",
+      "nwmp_server_no": 51
+    },
+    {
+      "name": "Maramma",
+      "world_set": "Arkadia Nu",
+      "region": "US East",
+      "nwmp_server_no": 7
+    },
+    {
+      "name": "Valhalla",
+      "world_set": "Arkadia Eta",
+      "region": "US East",
+      "nwmp_server_no": 15
+    },
+    {
+      "name": "Artorius",
+      "world_set": "Nibiru Initia Nova",
+      "region": "SA East",
+      "nwmp_server_no": 78
+    },
+    {
+      "name": "Devaloka",
+      "world_set": "Nibiru Phi",
+      "region": "SA East",
+      "nwmp_server_no": 16
+    },
+    {
+      "name": "Kronos",
+      "world_set": "Vanaheim Initia Nova",
+      "region": "EU Central",
+      "nwmp_server_no": 48
+    },
+    {
+      "name": "Nysa",
+      "world_set": "Vanaheim Omega (FR/EN)",
+      "region": "EU Central",
+      "nwmp_server_no": 27
+    },
+    {
+      "name": "Aaru",
+      "world_set": "Vanaheim Chi (DE/EN)",
+      "region": "EU Central",
+      "nwmp_server_no": 25
+    },
+    {
+      "name": "Delos",
+      "world_set": "Pangaia Nu",
+      "region": "AP Southeast",
+      "nwmp_server_no": 9
+    },
+    {
+      "name": "Sutekh",
+      "world_set": "Pangaia Initia Nova",
+      "region": "AP Southeast",
+      "nwmp_server_no": 60
+    }
+  ]
+}

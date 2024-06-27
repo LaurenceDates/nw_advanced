@@ -1,0 +1,95 @@
+{
+  "item_definition": [
+    {
+      "id": "timbert2",
+      "name": "Timber",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_timber", "t_timber_t2"]
+    },
+    {
+      "id": "timbert3",
+      "name": "Lumber",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_timber", "t_timber_t3"]
+    },
+    {
+      "id": "timbert4",
+      "name": "Wyrdwood Planks",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_timber", "t_timber_t4"]
+    },
+    {
+      "id": "timbert5",
+      "name": "Ironwood Planks",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_timber", "t_timber_t5"]
+    },
+    {
+      "id": "timbert52",
+      "name": "Runewood Planks",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_timber", "t_timber_t5", "t_timber_t52"]
+    },
+    {
+      "id": "timbert51",
+      "name": "Glittering Ebony",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_timber", "t_timber_t5", "t_timber_legendary"]
+    },
+    {
+      "id": "timbert53",
+      "name": "Prismatic Planks",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_timber", "t_timber_t5", "t_timber_t52", "t_timber_legendary", "t_prismatic"]
+    },
+    {
+      "id": "petrifiedwoodt1",
+      "name": "Petrified Wood",
+      "tier": 2,
+      "reality": 2,
+      "types": ["t_timber", "t_timber_t2", "t_timber_rare"]
+    },
+    {
+      "id": "whisperwoodt1",
+      "name": "Whisperwood",
+      "tier": 3,
+      "reality": 3,
+      "types": ["t_timber", "t_timber_t3", "t_timber_rare"]
+    },
+    {
+      "id": "quillbarkt1",
+      "name": "Quillbark",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_timber", "t_timber_t4", "t_timber_rare"]
+    },
+    {
+      "id": "ebonwoodt1",
+      "name": "Ebonwood",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_timber", "t_timber_t4", "t_timber_rare"]
+    },
+    {
+      "id": "wildwoodt1",
+      "name": "Wildwood",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_timber", "t_timber_t5", "t_timber_rare"]
+    },
+    {
+      "id": "barbvinet1",
+      "name": "Barbvine",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_timber", "t_timber_t5", "t_timber_rare"]
+    }
+  ]
+}

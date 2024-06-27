@@ -1,0 +1,53 @@
+{
+  "item_definition": [
+    {
+      "id": "oret1",
+      "name": "Iron Ore",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_ore", "t_ore_t1"]
+    },
+    {
+      "id": "oret4",
+      "name": "Starmetal Ore",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_ore", "t_ore_t4"]
+    },
+    {
+      "id": "oret5",
+      "name": "Orichalcum Ore",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_ore", "t_ore_t5"]
+    },
+    {
+      "id": "oret52",
+      "name": "Mythril Ore",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_ore", "t_ore_t5", "t_ore_t52"]
+    },
+    {
+      "id": "oreprecioust1",
+      "name": "Silver Ore",
+      "tier": 1,
+      "reality": 1,
+      "types": ["t_precious_ore", "t_precious_ore_t1"]
+    },
+    {
+      "id": "oreprecioust3",
+      "name": "Gold Ore",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_precious_ore", "t_precious_ore_t3"]
+    },
+    {
+      "id": "oreprecioust4",
+      "name": "Platinum Ore",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_precious_ore", "t_precious_ore_t4"]
+    }
+  ]
+}

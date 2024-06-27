@@ -1,0 +1,45 @@
+{
+  "recipe_definition": [
+    {
+      "id": "prismaticscarab",
+      "name": "Recipe: Prismatic Scarab",
+      "crafted_item_id": "prismaticscarab",
+      "crafted_item_name": "Prismatic Scarab",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 500
+        },
+        {
+          "slot_name": "Prismatic Block",
+          "mats": [
+            {"id": "blockt53"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Golden Scarab",
+          "mats": [
+            {"id": "goldenscarab"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Pure Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 50
+        }
+      ],
+      "tax": 30,
+      "extra_item_chance": -100
+    }
+  ]
+}

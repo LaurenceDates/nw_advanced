@@ -1,0 +1,414 @@
+{
+  "recipe_definition": [
+    {
+      "id": "matrix_weapon_weaponsmithing",
+      "name": "Recipe: Weapon Matrix",
+      "crafted_item_id": "matrix_weapon",
+      "crafted_item_name": "Weapon Matrix",
+      "amount": 1,
+      "station": "forge",
+      "skill": "weaponsmithing",
+      "ingredients": [
+        {
+          "slot_name": "Enchanted Handle",
+          "mats": [
+            {"id": "matrixcomponent_enchantedhandle"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Tempered Cast",
+          "mats": [
+            {"id": "matrixcomponent_temperedcast"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 6.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrix_weapon_engineering",
+      "name": "Recipe: Weapon Matrix",
+      "crafted_item_id": "matrix_weapon",
+      "crafted_item_name": "Weapon Matrix",
+      "amount": 1,
+      "station": "workshop",
+      "skill": "engineering",
+      "ingredients": [
+        {
+          "slot_name": "Enchanted Handle",
+          "mats": [
+            {"id": "matrixcomponent_enchantedhandle"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Honing Acid",
+          "mats": [
+            {"id": "matrixcomponent_honingacid"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 6.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrix_armor_armorsmithing",
+      "name": "Recipe: Armor Matrix",
+      "crafted_item_id": "matrix_armor",
+      "crafted_item_name": "Armor Matrix",
+      "amount": 1,
+      "station": "outfitting_station",
+      "skill": "armoring",
+      "ingredients": [
+        {
+          "slot_name": "Blessed Rivets",
+          "mats": [
+            {"id": "matrixcomponent_blessedrivets"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Reinforced Bracing",
+          "mats": [
+            {"id": "matrixcomponent_reinforcedbracing"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 6.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrix_armor_arcana",
+      "name": "Recipe: Armor Matrix",
+      "crafted_item_id": "matrix_armor",
+      "crafted_item_name": "Armor Matrix",
+      "amount": 1,
+      "station": "arcane_repository",
+      "skill": "arcana",
+      "ingredients": [
+        {
+          "slot_name": "Tempered Cast",
+          "mats": [
+            {"id": "matrixcomponent_temperedcast"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Honing Acid",
+          "mats": [
+            {"id": "matrixcomponent_honingacid"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 6.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrix_trinket_jewelcrafting",
+      "name": "Recipe: Jewelry Matrix",
+      "crafted_item_id": "matrix_trinket",
+      "crafted_item_name": "Jewelry Matrix",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "jewelcrafting",
+      "ingredients": [
+        {
+          "slot_name": "Blessed Rivets",
+          "mats": [
+            {"id": "matrixcomponent_blessedrivets"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Honing Acid",
+          "mats": [
+            {"id": "matrixcomponent_honingacid"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 6.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrixcomponent_enchantedhandle",
+      "name": "Recipe: Enchanted Handle",
+      "crafted_item_id": "matrixcomponent_enchantedandle",
+      "crafted_item_name": "Enchanted Handle",
+      "amount": 1,
+      "station": "outfitting_station",
+      "skill": "armoring",
+      "ingredients": [
+        {
+          "slot_name": "Prismatic Ingot",
+          "mats": [
+            {"id": "ingott53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Planks",
+          "mats": [
+            {"id": "timbert53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Leather",
+          "mats": [
+            {"id": "leathert53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Gypsum Orb",
+          "mats": [
+            {"id": "gypsumorb"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 4.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrixcomponent_temperedcast",
+      "name": "Recipe: Tempered Cast",
+      "crafted_item_id": "matrixcomponent_temperedcast",
+      "crafted_item_name": "Tempered Cast",
+      "amount": 1,
+      "station": "forge",
+      "skill": "weaponsmithing",
+      "ingredients": [
+        {
+          "slot_name": "Prismatic Ingot",
+          "mats": [
+            {"id": "ingott53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Cloth",
+          "mats": [
+            {"id": "clotht53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Leather",
+          "mats": [
+            {"id": "leathert53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Gypsum Orb",
+          "mats": [
+            {"id": "gypsumorb"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 4.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrixcomponent_honingacid",
+      "name": "Recipe: Honing Acid",
+      "crafted_item_id": "matrixcomponent_honingacid",
+      "crafted_item_name": "Honing Acid",
+      "amount": 1,
+      "station": "arcane_repository",
+      "skill": "arcana",
+      "ingredients": [
+        {
+          "slot_name": "Prismatic Leather",
+          "mats": [
+            {"id": "leathert53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Block",
+          "mats": [
+            {"id": "blockt53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Infused Alkahest",
+          "mats": [
+            {"id": "alkahestt5"}
+          ],
+          "amount": 25
+        },
+        {
+          "slot_name": "Gypsum Orb",
+          "mats": [
+            {"id": "gypsumorb"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 4.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrixcomponent_blessedrivets",
+      "name": "Recipe: Blessed Rivets",
+      "crafted_item_id": "matrixcomponent_blessedrivets",
+      "crafted_item_name": "Blessed Rivets",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "jewelcrafting",
+      "ingredients": [
+        {
+          "slot_name": "Prismatic Ingot",
+          "mats": [
+            {"id": "ingott53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Block",
+          "mats": [
+            {"id": "blockt53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Powerful Gemstone Dust",
+          "mats": [
+            {"id": "gemstonedustt5"}
+          ],
+          "amount": 15
+        },
+        {
+          "slot_name": "Gypsum Orb",
+          "mats": [
+            {"id": "gypsumorb"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 4.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "matrixcomponent_blessedrivets",
+      "name": "Recipe: Blessed Rivets",
+      "crafted_item_id": "matrixcomponent_blessedrivets",
+      "crafted_item_name": "Blessed Rivets",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "jewelcrafting",
+      "ingredients": [
+        {
+          "slot_name": "Prismatic Ingot",
+          "mats": [
+            {"id": "ingott53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Prismatic Block",
+          "mats": [
+            {"id": "blockt53"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Powerful Gemstone Dust",
+          "mats": [
+            {"id": "gemstonedustt5"}
+          ],
+          "amount": 15
+        },
+        {
+          "slot_name": "Gypsum Orb",
+          "mats": [
+            {"id": "gypsumorb"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Azoth",
+          "mats": [
+            {"id": "azoth"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 4.00,
+      "extra_item_chance": 0
+    }
+  ]
+}

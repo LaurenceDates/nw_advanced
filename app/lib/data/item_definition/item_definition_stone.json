@@ -1,0 +1,18 @@
+{
+  "item_definition": [
+    {
+      "id": "stonet1",
+      "name": "Stone",
+      "tier": 1,
+      "reality": 1,
+      "types": ["t_stone", "t_stone_t1"]
+    },
+    {
+      "id": "stonet4",
+      "name": "Lodestone",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_stone", "t_stone_t4"]
+    }
+  ]
+}

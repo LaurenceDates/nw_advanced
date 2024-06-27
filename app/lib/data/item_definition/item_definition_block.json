@@ -1,0 +1,53 @@
+{
+  "item_definition": [
+    {
+      "id": "blockt2",
+      "name": "Stone Block",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_block", "t_block_t2"]
+    },
+    {
+      "id": "blockt3",
+      "name": "Stone Brick",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_block", "t_block_t3"]
+    },
+    {
+      "id": "blockt4",
+      "name": "Lodestone Brick",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_block", "t_block_t4"]
+    },
+    {
+      "id": "blockt5",
+      "name": "Obsidian Voidstone",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_block", "t_block_t5"]
+    },
+    {
+      "id": "blockt52",
+      "name": "Runic Voidstone",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_block", "t_block_t5", "t_block_t52"]
+    },
+    {
+      "id": "blockt51",
+      "name": "Runestone",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_block", "t_block_t5", "t_block_legendary"]
+    },
+    {
+      "id": "blockt53",
+      "name": "Prismatic Block",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_block", "t_block_t5", "t_block_t52", "t_block_legendary", "t_prismatic"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "item_definition": [    {
+      "id": "azoth",
+      "name": "Azoth",
+      "tier": 0,
+      "reality": 0,
+      "types": ["azoth"]
+    },
+    {
+      "id": "azurevialt1",
+      "name": "Vial of Suspended Azoth",
+      "tier": 0,
+      "reality": 3,
+      "types": ["v_azoth"]
+    }
+  ]
+}

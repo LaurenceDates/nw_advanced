@@ -1,0 +1,102 @@
+{
+  "item_definition": [
+    {
+      "id": "clotht2",
+      "name": "Linen",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_cloth", "t_cloth_t2"]
+    },
+    {
+      "id": "clotht3",
+      "name": "Sateen",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_cloth", "t_cloth_t3"]
+    },
+    {
+      "id": "clotht4",
+      "name": "Silk",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_cloth", "t_cloth_t4"]
+    },
+    {
+      "id": "clotht5",
+      "name": "Infused Silk",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_cloth", "t_cloth_t5"]
+    },
+    {
+      "id": "clotht52",
+      "name": "Spinweave Cloth",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_cloth", "t_cloth_t5", "t_cloth_t52"]
+    },
+    {
+      "id": "clotht51",
+      "name": "Phoenixweave",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_cloth", "t_cloth_t5", "t_cloth_legendary"]
+    },
+    {
+      "id": "clotht53",
+      "name": "Prismatic Cloth",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_cloth", "t_cloth_t5", "t_cloth_t52", "t_cloth_legendary", "t_prismatic"]
+    },
+    {
+      "id": "shadeclotht1",
+      "name": "Shadecloth",
+      "tier": 2,
+      "reality": 2,
+      "types": ["t_cloth", "t_cloth_t2", "t_cloth_rare"]
+    },
+    {
+      "id": "phasefibert1",
+      "name": "Phasefiber",
+      "tier": 3,
+      "reality": 3,
+      "types": ["t_cloth", "t_cloth_t3", "t_cloth_rare"]
+    },
+    {
+      "id": "phasefibert1",
+      "name": "Phasefiber",
+      "tier": 3,
+      "reality": 3,
+      "types": ["t_cloth", "t_cloth_t3", "t_cloth_rare"]
+    },
+    {
+      "id": "glintwoolt1",
+      "name": "Glintstrands",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_cloth", "t_cloth_t4", "t_cloth_rare"]
+    },
+    {
+      "id": "scalecordt1",
+      "name": "Scalecord",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_cloth", "t_cloth_t4", "t_cloth_rare"]
+    },
+    {
+      "id": "blisterweavet1",
+      "name": "Blisterweave",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_cloth", "t_cloth_t5", "t_cloth_rare"]
+    },
+    {
+      "id": "scaleclotht1",
+      "name": "Scalecloth",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_cloth", "t_cloth_t5", "t_cloth_rare"]
+    }
+  ]
+}

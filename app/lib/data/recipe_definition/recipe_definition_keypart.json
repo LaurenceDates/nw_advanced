@@ -1,0 +1,106 @@
+{
+  "recipe_definition": [
+    {
+      "id": "recipe_keypart_core",
+      "name": "Recipe: Energy Core",
+      "crafted_item_id": "keypart_core",
+      "crafted_item_name": "Energy Core",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "keypart_elementalheart",
+          "mats": [
+            {"id": "keypart_elementalheart"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "keypart_eternalheart",
+          "mats": [
+            {"id": "keypart_eternalheart"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -100
+    },
+    {
+      "id": "recipe_keypart_elementalheart",
+      "name": "Recipe: Elemental Heart",
+      "crafted_item_id": "keypart_elementalheart",
+      "crafted_item_name": "Elemental Heart",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "alchemywatert1",
+          "mats": [
+            {"id": "alchemywatert1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "alchemyeartht1",
+          "mats": [
+            {"id": "alchemyeartht1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "alchemyfiret1",
+          "mats": [
+            {"id": "alchemyfiret1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "alchemyairt1",
+          "mats": [
+            {"id": "alchemyairt1"}
+          ],
+          "amount": 10
+        }
+      ],
+      "tax": 0.25,
+      "extra_item_chance": -100
+    },
+    {
+      "id": "recipe_keypart_eternalheart",
+      "name": "Recipe: Eternal Heart",
+      "crafted_item_id": "keypart_eternalheart",
+      "crafted_item_name": "Eternal Heart",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "alchemydeatht1",
+          "mats": [
+            {"id": "alchemydeatht1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "alchemylifet1",
+          "mats": [
+            {"id": "alchemylifet1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "alchemyspiritt1",
+          "mats": [
+            {"id": "alchemyspiritt1"}
+          ],
+          "amount": 10
+        }
+      ],
+      "tax": 0.25,
+      "extra_item_chance": -100
+    }
+  ]
+}

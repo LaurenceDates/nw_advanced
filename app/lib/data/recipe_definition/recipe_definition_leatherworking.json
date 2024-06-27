@@ -1,0 +1,404 @@
+{
+  "recipe_definition": [
+    {
+      "id": "leathert2",
+      "name": "Recipe: Coarse Leather",
+      "crafted_item_id": "leathert2",
+      "crafted_item_name": "Coarse Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Rawhide",
+          "mats": [
+            {"id": "rawhidet1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "leathert3",
+      "name": "Recipe: Rugged Leather",
+      "crafted_item_id": "leathert3",
+      "crafted_item_name": "Rugged Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Coarse Leather",
+          "mats": [
+            {"id": "leathert2"}
+          ],
+          "amount": 4
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5", "mod": {"extra_item_chance": 75}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "leathert4",
+      "name": "Recipe: Layered Leather",
+      "crafted_item_id": "leathert4",
+      "crafted_item_name": "Layered Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Rugged Leathere",
+          "mats": [
+            {"id": "leathert3"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Thick Hide",
+          "mats": [
+            {"id": "rawhidet4"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "leathert5",
+      "name": "Recipe: Infused Leather",
+      "crafted_item_id": "leathert5",
+      "crafted_item_name": "Infused Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Layered Leather",
+          "mats": [
+            {"id": "leathert4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Hide Tier 5",
+          "mats": [
+            {"id": "rawhidet5"},
+            {"id": "chitinhidet5"},
+            {"id": "rawhidet52"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "leathert52",
+      "name": "Recipe: Dark Leather",
+      "crafted_item_id": "leathert52",
+      "crafted_item_name": "Dark Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Infused Leather",
+          "mats": [
+            {"id": "leathert5"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Dark Hide",
+          "mats": [
+            {"id": "rawhidet52"}
+          ],
+          "amount": 12
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.22,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "leathert51",
+      "name": "Recipe: Runic Leather",
+      "crafted_item_id": "leathert51",
+      "crafted_item_name": "Runic Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Infused Leather",
+          "mats": [
+            {"id": "leathert5"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Scarhide",
+          "mats": [
+            {"id": "scarhidet1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Smolderhide",
+          "mats": [
+            {"id": "smolderhidet1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -25
+    },
+    {
+      "id": "leathert53",
+      "name": "Recipe: Prismatic Leather",
+      "crafted_item_id": "leathert53",
+      "crafted_item_name": "Prismatic Leather",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Dark Leather",
+          "mats": [
+            {"id": "leathert52"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Runic Leather",
+          "mats": [
+            {"id": "leathert51"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -30
+    },
+    {
+      "id": "chitinhidet5",
+      "name": "Recipe: Chitin Plate",
+      "crafted_item_id": "chitinleathert5",
+      "crafted_item_name": "Chitin Plate",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Chitin Parts",
+          "mats": [
+            {"id": "chitinhidet5"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Layered Leather",
+          "mats": [
+            {"id": "leathert4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Tannin",
+          "mats": [
+            {"id": "tannint5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "ragehidet1",
+      "name": "Recipe: Ragehide",
+      "crafted_item_id": "ragehidet1",
+      "crafted_item_name": "Ragehide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Rawhide",
+          "mats": [
+            {"id": "rawhidet1"}
+          ],
+          "amount": 50
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "sccalyhidet1",
+      "name": "Recipe: Scaly Hide",
+      "crafted_item_id": "scalyhidet1",
+      "crafted_item_name": "Scaly Hide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Rawhide",
+          "mats": [
+            {"id": "rawhidet1"}
+          ],
+          "amount": 100
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "shadowfurt1",
+      "name": "Recipe: Shadowfur",
+      "crafted_item_id": "shadowfurt1",
+      "crafted_item_name": "Shadowfur",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Rawhide",
+          "mats": [
+            {"id": "rawhidet1"}
+          ],
+          "amount": 100
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "blightscalehidet1",
+      "name": "Recipe: Blightscale Hide",
+      "crafted_item_id": "blightscalehidet1",
+      "crafted_item_name": "Blightscale Hide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Thick Hide",
+          "mats": [
+            {"id": "rawhidet4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "shifthidet1",
+      "name": "Recipe: Shifthide",
+      "crafted_item_id": "shifthidet1",
+      "crafted_item_name": "Shifthide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Thick Hide",
+          "mats": [
+            {"id": "rawhidet4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "scarhidet1",
+      "name": "Recipe: Scarhide",
+      "crafted_item_id": "scarhidet1",
+      "crafted_item_name": "Scarhide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Iron Hide",
+          "mats": [
+            {"id": "rawhidet5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "smolderhidet1",
+      "name": "Recipe: Smolderhide",
+      "crafted_item_id": "smolderhidet1",
+      "crafted_item_name": "Smolderhide",
+      "amount": 1,
+      "station": "tannery",
+      "skill": "leatherworking",
+      "ingredients": [
+        {
+          "slot_name": "Iron Hide",
+          "mats": [
+            {"id": "rawhidet5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    }
+  ]
+}

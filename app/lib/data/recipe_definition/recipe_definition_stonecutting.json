@@ -1,0 +1,343 @@
+{
+  "recipe_definition": [
+    {
+      "id": "blockt2",
+      "name": "Recipe: Stone Block",
+      "crafted_item_id": "blockt2",
+      "crafted_item_name": "Stone Block",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Stone",
+          "mats": [
+            {"id": "stonet1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "blockt3",
+      "name": "Recipe: Stone Brick",
+      "crafted_item_id": "blockt3",
+      "crafted_item_name": "Stone Brick",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Stone Block",
+          "mats": [
+            {"id": "blockt2"}
+          ],
+          "amount": 4
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5", "mod": {"extra_item_chance": 75}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "blockt4",
+      "name": "Recipe: Lodestone Brick",
+      "crafted_item_id": "blockt4",
+      "crafted_item_name": "Lodestone Brick",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Lodestone",
+          "mats": [
+            {"id": "stonet4"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Stone Brick",
+          "mats": [
+            {"id": "blockt3"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "blockt5",
+      "name": "Recipe: Obsidian Voidstone",
+      "crafted_item_id": "blockt5",
+      "crafted_item_name": "Obsidian Voidstone",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Lodestone Brick",
+          "mats": [
+            {"id": "blockt4"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Lodestone",
+          "mats": [
+            {"id": "stonet4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Lodestone",
+          "mats": [
+            {"id": "lodestonefiret1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestonewatert1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestonedeatht1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestonesoult1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestoneeartht1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestoneairt1", "mod": {"extra_item_chance": -10}},
+            {"id": "lodestonelifet1", "mod": {"extra_item_chance": -10}}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "blockt52",
+      "name": "Recipe: Runic Voidstone",
+      "crafted_item_id": "blockt52",
+      "crafted_item_name": "Runic Voidstone",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Obsidian Voidstone",
+          "mats": [
+            {"id": "blockt5"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Powerful Gemstone Dust",
+          "mats": [
+            {"id": "gemstonedustt5"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.22,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "blockt51",
+      "name": "Recipe: Runestone",
+      "crafted_item_id": "blockt51",
+      "crafted_item_name": "Runestone",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Obsidian Voidstone",
+          "mats": [
+            {"id": "blockt5"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Lodestone",
+          "mats": [
+            {"id": "lodestonefiret1"},
+            {"id": "lodestonewatert1"},
+            {"id": "lodestonedeatht1"},
+            {"id": "lodestonesoult1"},
+            {"id": "lodestoneeartht1"},
+            {"id": "lodestoneairt1"},
+            {"id": "lodestonelifet1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -25
+    },
+    {
+      "id": "blockt53",
+      "name": "Recipe: Prismatic Block",
+      "crafted_item_id": "blockt53",
+      "crafted_item_name": "Prismatic Block",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Runic Voidstone",
+          "mats": [
+            {"id": "blockt52"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Runestone",
+          "mats": [
+            {"id": "blockt51"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -30
+    },
+
+    {
+      "id": "recipe_keypart_core",
+      "name": "Recipe: Energy Core",
+      "crafted_item_id": "keypart_core",
+      "crafted_item_name": "Energy Core",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Elemental Heart",
+          "mats": [
+            {"id": "keypart_elementalheart"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Eternal Heart",
+          "mats": [
+            {"id": "keypart_eternalheart"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -100
+    },
+    {
+      "id": "recipe_keypart_elementalheart",
+      "name": "Recipe: Elemetal Heart",
+      "crafted_item_id": "keypart_elementalheart",
+      "crafted_item_name": "Elemental Heart",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Water Mote",
+          "mats": [
+            {"id": "alchemywatert1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Earth Mote",
+          "mats": [
+            {"id": "alchemyeartht1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Fire Mote",
+          "mats": [
+            {"id": "alchemyfiret1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Air Mote",
+          "mats": [
+            {"id": "alchemyairt1"}
+          ],
+          "amount": 10
+        }
+      ],
+      "tax": 0.25,
+      "extra_item_chance": -100
+    },
+    {
+      "id": "recipe_keypart_eternalheart",
+      "name": "Recipe: Eternal Heart",
+      "crafted_item_id": "keypart_eternalheart",
+      "crafted_item_name": "Eternal Heart",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Death Mote",
+          "mats": [
+            {"id": "alchemydeatht1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Life Mote",
+          "mats": [
+            {"id": "alchemylifet1"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Soul Mote",
+          "mats": [
+            {"id": "alchemyspiritt1"}
+          ],
+          "amount": 10
+        }
+      ],
+      "tax": 0.25,
+      "extra_item_chance": -100
+    }
+  ]
+}

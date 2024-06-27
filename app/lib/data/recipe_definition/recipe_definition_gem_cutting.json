@@ -1,0 +1,480 @@
+{
+  "recipe_definition": [
+    {
+      "id": "ambercutt4",
+      "name": "Recipe: Cut Pristine Amber",
+      "crafted_item_id": "ambercutt4",
+      "crafted_item_name": "Cut Pristine Amber",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Amber",
+          "mats": [
+            {"id": "ambert4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Earth Quintessence",
+          "mats": [
+            {"id": "essenceeartht1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "amethystcutt4",
+      "name": "Recipe: Cut Pristine Amethyst",
+      "crafted_item_id": "amethystcutt4",
+      "crafted_item_name": "Cut Pristine Amethyst",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Amethyst",
+          "mats": [
+            {"id": "amethystt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Soul Quintessence",
+          "mats": [
+            {"id": "essencespiritt1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "aquamarinecutt4",
+      "name": "Recipe: Cut Pristine Aquamarine",
+      "crafted_item_id": "aquamarinecutt4",
+      "crafted_item_name": "Cut Pristine Aquamarine",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Aquamarine",
+          "mats": [
+            {"id": "aquamarinet4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Water Quintessence",
+          "mats": [
+            {"id": "essencewatert1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "carneliancutt4",
+      "name": "Recipe: Cut Pristine Carnelian",
+      "crafted_item_id": "carneliancutt4",
+      "crafted_item_name": "Cut Pristine Carnelian",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Carnelian",
+          "mats": [
+            {"id": "carneliant4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Fire Quintessence",
+          "mats": [
+            {"id": "essencefiret1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "diamondcutt4",
+      "name": "Recipe: Cut Pristine Diamond",
+      "crafted_item_id": "diamondcutt4",
+      "crafted_item_name": "Cut Pristine Diamond",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Diamond",
+          "mats": [
+            {"id": "diamondt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Life Quintessence",
+          "mats": [
+            {"id": "essencelifet1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "emeraldcutt4",
+      "name": "Recipe: Cut Pristine Emerald",
+      "crafted_item_id": "emeraldcutt4",
+      "crafted_item_name": "Cut Pristine Emerald",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Emerald",
+          "mats": [
+            {"id": "emeraldt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Earth Quintessence",
+          "mats": [
+            {"id": "essenceeartht1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "jaspercutt4",
+      "name": "Recipe: Cut Pristine Jasper",
+      "crafted_item_id": "jaspercutt4",
+      "crafted_item_name": "Cut Pristine Jasper",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Jasper",
+          "mats": [
+            {"id": "jaspert4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Air Quintessence",
+          "mats": [
+            {"id": "essenceairt1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "malachitecutt4",
+      "name": "Recipe: Cut Pristine Malachite",
+      "crafted_item_id": "malachitecutt4",
+      "crafted_item_name": "Cut Pristine Malachite",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Malachite",
+          "mats": [
+            {"id": "malachitet4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Soul Quintessence",
+          "mats": [
+            {"id": "essencespiritt1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "moonstonecutt4",
+      "name": "Recipe: Cut Pristine Moonstone",
+      "crafted_item_id": "moonstonecutt4",
+      "crafted_item_name": "Cut Pristine Moonstone",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Moonstone",
+          "mats": [
+            {"id": "moonstonet4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Death Quintessence",
+          "mats": [
+            {"id": "essencedeatht1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "onyxcutt4",
+      "name": "Recipe: Cut Pristine Onyx",
+      "crafted_item_id": "onyxcutt4",
+      "crafted_item_name": "Cut Pristine Onyx",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Onyx",
+          "mats": [
+            {"id": "onyxt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Life Quintessence",
+          "mats": [
+            {"id": "essencelifet1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "opalcutt4",
+      "name": "Recipe: Cut Pristine Opal",
+      "crafted_item_id": "opalcutt4",
+      "crafted_item_name": "Cut Pristine Opal",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Opal",
+          "mats": [
+            {"id": "opalt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Soul Quintessence",
+          "mats": [
+            {"id": "essencespiritt1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "rubycutt4",
+      "name": "Recipe: Cut Pristine Ruby",
+      "crafted_item_id": "rubycutt4",
+      "crafted_item_name": "Cut Pristine Ruby",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Ruby",
+          "mats": [
+            {"id": "rubyt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Fire Quintessence",
+          "mats": [
+            {"id": "essencefiret1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "sapphirecutt4",
+      "name": "Recipe: Cut Pristine Sapphire",
+      "crafted_item_id": "sapphirecutt4",
+      "crafted_item_name": "Cut Pristine Sapphire",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Sapphire",
+          "mats": [
+            {"id": "sapphiret4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Death Quintessence",
+          "mats": [
+            {"id": "essencedeatht1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "topazcutt4",
+      "name": "Recipe: Cut Pristine Topaz",
+      "crafted_item_id": "topazcutt4",
+      "crafted_item_name": "Cut Pristine Topaz",
+      "amount": 1,
+      "station": "stonecutting_table",
+      "skill": "stonecutting",
+      "ingredients": [
+        {
+          "slot_name": "Pristine Topaz",
+          "mats": [
+            {"id": "topazt4"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Air Quintessence",
+          "mats": [
+            {"id": "essenceairt1"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Solvent",
+          "mats": [
+            {"id": "solventt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": 0
+    }
+  ]
+}

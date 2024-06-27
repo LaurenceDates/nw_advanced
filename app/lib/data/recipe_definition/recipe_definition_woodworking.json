@@ -1,0 +1,355 @@
+{
+  "recipe_definition": [
+    {
+      "id": "timbert2",
+      "name": "Recipe: Timber",
+      "crafted_item_id": "timbert2",
+      "crafted_item_name": "Timber",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Green Wood",
+          "mats": [
+            {"id": "woodt1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "timbert3",
+      "name": "Recipe: Lumber",
+      "crafted_item_id": "timbert3",
+      "crafted_item_name": "Lumber",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Aged Wood",
+          "mats": [
+            {"id": "woodt2"}
+          ],
+          "amount": 4
+        },
+        {
+          "slot_name": "Timber",
+          "mats": [
+            {"id": "timbert2"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5", "mod": {"extra_item_chance": 75}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "timbert4",
+      "name": "Recipe: Wyrdwood Planks",
+      "crafted_item_id": "timbert4",
+      "crafted_item_name": "Wyrdwood Planks",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Wyrdwood",
+          "mats": [
+            {"id": "woodt4"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Lumber",
+          "mats": [
+            {"id": "timbert3"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "timbert5",
+      "name": "Recipe: Ironwood Planks",
+      "crafted_item_id": "timbert5",
+      "crafted_item_name": "Ironwood Planks",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Ironwood",
+          "mats": [
+            {"id": "woodt5"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Wyrdwood Planks",
+          "mats": [
+            {"id": "timbert4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "timbert52",
+      "name": "Recipe: Runewood Planks",
+      "crafted_item_id": "timbert52",
+      "crafted_item_name": "Runewood Planks",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Runewood",
+          "mats": [
+            {"id": "woodt52"}
+          ],
+          "amount": 12
+        },
+        {
+          "slot_name": "Ironwood Planks",
+          "mats": [
+            {"id": "timbert5"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.22,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "timbert51",
+      "name": "Recipe: Glittering Ebony",
+      "crafted_item_id": "timbert51",
+      "crafted_item_name": "Glittering Ebony",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Ironwood Planks",
+          "mats": [
+            {"id": "timbert5"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Wildwood",
+          "mats": [
+            {"id": "wildwoodt1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Barbvine",
+          "mats": [
+            {"id": "barbvinet1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -25
+    },
+    {
+      "id": "timbert53",
+      "name": "Recipe: Prismatic Planks",
+      "crafted_item_id": "timbert53",
+      "crafted_item_name": "Prismatic Planks",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Runewood Planks",
+          "mats": [
+            {"id": "timbert52"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Glittering Ebony",
+          "mats": [
+            {"id": "timbert51"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Sandpaper",
+          "mats": [
+            {"id": "sandpapert5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -30
+    },
+    {
+      "id": "petrifiedwoodt1",
+      "name": "Recipe: Petrified Wood",
+      "crafted_item_id": "petrifiedwoodt1",
+      "crafted_item_name": "Petrified Wood",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Green Wood",
+          "mats": [
+            {"id": "woodt1"}
+          ],
+          "amount": 50
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "whisperwoodt1",
+      "name": "Recipe: Whisperwood",
+      "crafted_item_id": "whisperwoodt1",
+      "crafted_item_name": "Whisperwood",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Aged Wood",
+          "mats": [
+            {"id": "woodt2"}
+          ],
+          "amount": 100
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "ebonwoodt1",
+      "name": "Recipe: Ebonwood",
+      "crafted_item_id": "ebonwoodt1",
+      "crafted_item_name": "Ebonwood",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Wyrdwood",
+          "mats": [
+            {"id": "woodt4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "quillbarkt1",
+      "name": "Recipe: Quillbark",
+      "crafted_item_id": "quillbarkt1",
+      "crafted_item_name": "Quillbark",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Wyrdwood",
+          "mats": [
+            {"id": "woodt4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "barbvinet1",
+      "name": "Recipe: Barbvine",
+      "crafted_item_id": "barbvineet1",
+      "crafted_item_name": "Barbvine",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Ironwood",
+          "mats": [
+            {"id": "woodt5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "wildwoodt1",
+      "name": "Recipe: Wildwood",
+      "crafted_item_id": "wildwoodt1",
+      "crafted_item_name": "Wildwood",
+      "amount": 1,
+      "station": "woodshop",
+      "skill": "woodworking",
+      "ingredients": [
+        {
+          "slot_name": "Ironwood",
+          "mats": [
+            {"id": "woodt5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "recipe_definition": [
+    {
+      "id": "clotht2",
+      "name": "Recipe: Linen",
+      "crafted_item_id": "clotht2",
+      "crafted_item_name": "Linen",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Fibers",
+          "mats": [
+            {"id": "fibert1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "clotht3",
+      "name": "Recipe: Sateen",
+      "crafted_item_id": "clotht3",
+      "crafted_item_name": "Sateen",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Linen",
+          "mats": [
+            {"id": "clotht2"}
+          ],
+          "amount": 4
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5", "mod": {"extra_item_chance": 75}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "clotht4",
+      "name": "Recipe: Silk",
+      "crafted_item_id": "clotht4",
+      "crafted_item_name": "Silk",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Sateen",
+          "mats": [
+            {"id": "clotht3"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Silk Thread",
+          "mats": [
+            {"id": "fibert4"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "clotht5",
+      "name": "Recipe: Infused Silk",
+      "crafted_item_id": "clotht5",
+      "crafted_item_name": "Infused Silk",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Silk",
+          "mats": [
+            {"id": "clotht4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Wirefiber",
+          "mats": [
+            {"id": "fibert5"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "clotht52",
+      "name": "Recipe: Spinweave Cloth",
+      "crafted_item_id": "clotht52",
+      "crafted_item_name": "Spinweave Cloth",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Infused Silk",
+          "mats": [
+            {"id": "clotht5"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Spinfiber",
+          "mats": [
+            {"id": "fibert52"}
+          ],
+          "amount": 12
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.22,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "clotht51",
+      "name": "Recipe: Phoenixweave",
+      "crafted_item_id": "clotht51",
+      "crafted_item_name": "Phoenixweave",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Infused Silk",
+          "mats": [
+            {"id": "clotht5"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Scalecloth",
+          "mats": [
+            {"id": "scaleclotht1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Blisterweave",
+          "mats": [
+            {"id": "blisterweavet1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -25
+    },
+    {
+      "id": "clotht53",
+      "name": "Recipe: Prismatic Cloth",
+      "crafted_item_id": "clotht53",
+      "crafted_item_name": "Prismatic Cloth",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Spinweave Cloth",
+          "mats": [
+            {"id": "clotht52"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Phoenixweave",
+          "mats": [
+            {"id": "clotht51"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Wireweave",
+          "mats": [
+            {"id": "clothweavet5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -30
+    },
+    {
+      "id": "shadeclotht1",
+      "name": "Recipe: Shadecloth",
+      "crafted_item_id": "shadeclotht1",
+      "crafted_item_name": "Shadecloth",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Fibers",
+          "mats": [
+            {"id": "fibert1"}
+          ],
+          "amount": 50
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "phasefibert1",
+      "name": "Recipe: Phasefiber",
+      "crafted_item_id": "phasefibert1",
+      "crafted_item_name": "Phasefiber",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Fibers",
+          "mats": [
+            {"id": "fibert1"}
+          ],
+          "amount": 100
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "glintwoolt1",
+      "name": "Recipe: Glintstrands",
+      "crafted_item_id": "glintwoolt1",
+      "crafted_item_name": "Glintstrands",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Silk Threads",
+          "mats": [
+            {"id": "fibert4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "scalecordt1",
+      "name": "Recipe: Scalecord",
+      "crafted_item_id": "scalecordt1",
+      "crafted_item_name": "Scalecord",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Silk Threads",
+          "mats": [
+            {"id": "fibert4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "blisterweavet1",
+      "name": "Recipe: Blisterweave",
+      "crafted_item_id": "blisterweavet1",
+      "crafted_item_name": "Blisterweave",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Wirefiber",
+          "mats": [
+            {"id": "fibert5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "scaleclotht1",
+      "name": "Recipe: Scalecloth",
+      "crafted_item_id": "scaleclotht1",
+      "crafted_item_name": "Scalecloth",
+      "amount": 1,
+      "station": "loom",
+      "skill": "weaving",
+      "ingredients": [
+        {
+          "slot_name": "Wirefiber",
+          "mats": [
+            {"id": "fibert5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    }
+  ]
+}

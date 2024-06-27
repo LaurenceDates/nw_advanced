@@ -1,0 +1,24 @@
+{
+  "recipe_definition": [
+    {
+      "id": "salvage_azurevialt1",
+      "name": "Salvage: Vial of Suspended Azoth",
+      "crafted_item_id": "azoth",
+      "crafted_item_name": "Azoth",
+      "amount": 50,
+      "station": "",
+      "skill": "",
+      "ingredients": [
+        {
+          "slot_name": "Vial of Suspended Azoth",
+          "mats": [
+            {"id": "azurevialt1"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0,
+      "extra_item_chance": 0
+    }
+  ]
+}

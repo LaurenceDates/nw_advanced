@@ -1,0 +1,134 @@
+{
+  "item_definition": [
+    {
+      "id": "leathert2",
+      "name": "Coarse Leather",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t2"]
+    },
+    {
+      "id": "leathert3",
+      "name": "Rugged Leather",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t3"]
+    },
+    {
+      "id": "leathert4",
+      "name": "Layered Leather",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t4"]
+    },
+    {
+      "id": "leathert5",
+      "name": "Infused Leather",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t5"]
+    },
+    {
+      "id": "leathert52",
+      "name": "Dark Leather",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t5", "t_leather_t52"]
+    },
+    {
+      "id": "leathert51",
+      "name": "Runic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_legendary"]
+    },
+    {
+      "id": "leathert51",
+      "name": "Runic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_legendary"]
+    },    {
+      "id": "leathert51",
+      "name": "Runic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_legendary"]
+    },    {
+      "id": "leathert51",
+      "name": "Runic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_legendary"]
+    },    {
+      "id": "leathert51",
+      "name": "Runic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_legendary"]
+    },
+    {
+      "id": "leathert53",
+      "name": "Prismatic Leather",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_t52", "t_leather_legendary", "t_prismatic"]
+    },
+    {
+      "id": "scalyhidet1",
+      "name": "Scalyhide",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_leather", "t_leather_t3", "t_leather_rare"]
+    },
+    {
+      "id": "ragehidet1",
+      "name": "Ragehide",
+      "tier": 2,
+      "reality": 2,
+      "types": ["t_leather", "t_leather_t2", "t_leather_rare"]
+    },
+    {
+      "id": "ragehidet1",
+      "name": "Ragehide",
+      "tier": 2,
+      "reality": 2,
+      "types": ["t_leather", "t_leather_t2", "t_leather_rare"]
+    },
+    {
+      "id": "shadowfurt1",
+      "name": "Shadowfur",
+      "tier": 3,
+      "reality": 3,
+      "types": ["t_leather", "t_leather_t3", "t_leather_rare"]
+    },
+    {
+      "id": "shifthidet1",
+      "name": "Shifthide",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_leather", "t_leather_t4", "t_leather_rare"]
+    },
+    {
+      "id": "brightscalehidet1",
+      "name": "Brightscale Hide",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_leather", "t_leather_t4", "t_leather_rare"]
+    },
+    {
+      "id": "scarhidet1",
+      "name": "Scarhide",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_leather", "t_leather_t5", "t_leather_rare"]
+    },
+    {
+      "id": "smolderhidet1",
+      "name": "Smolderhide",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_leather", "t_leather_t5", "t_leather_rare"]
+    }
+  ]
+}

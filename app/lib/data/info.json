@@ -1,0 +1,35 @@
+{
+  "updates": [
+    [1711929600000, 20240401, "Test Version"]
+  ],
+  "info": [
+    [1703548800000, "Test Version is under development"]
+  ],
+  "variables": {
+  },
+  "files": [
+    ["server_definition.json", 	1713207600000],
+    ["item_definition_azoth.json", 1713139200000],
+    ["item_definition_block.json", 1711929600000],
+    ["item_definition_block.json", 1711929600000],
+    ["item_definition_charcoal.json", 1711929600000],
+    ["item_definition_cloth.json", 1711929600000],
+    ["item_definition_fibers.json" , 1711929600000],
+    ["item_definition_leather.json", 1711929600000],
+    ["item_definition_metal.json", 1711929600000],
+    ["item_definition_ore.json", 1711929600000],
+    ["item_definition_rawhide.json", 1711929600000],
+    ["item_definition_stone.json", 1711929600000],
+    ["item_definition_timber.json", 1711929600000],
+    ["item_definition_wood.json", 1711929600000],
+    ["recipe_definition_azoth.json", 1713139800000],
+    ["recipe_definition_gem_cutting.json", 1711929600000],
+    ["recipe_definition_leatherworking.json", 1711929600000],
+    ["recipe_definition_matrix.json", 1711929600000],
+    ["recipe_definition_scarab.json", 1711929600000],
+    ["recipe_definition_smelting.json", 1711929600000],
+    ["recipe_definition_stonecutting.json", 1711929600000],
+    ["recipe_definition_weaving.json", 1711929600000],
+    ["recipe_definition_woodworking.json", 1711929600000]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "item_definition": [
+    {
+      "id": "rawhidet1",
+      "name": "Rawhide",
+      "tier": 1,
+      "reality": 1,
+      "types": ["t_rawhide", "t_rawhide_t1"]
+    },
+    {
+      "id": "rawhidet4",
+      "name": "Thick Hide",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_rawhide", "t_rawhide_t4"]
+    },
+    {
+      "id": "rawhidet5",
+      "name": "Iron Hide",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_rawhide", "t_rawhide_t5"]
+    },
+    {
+      "id": "rawhidet52",
+      "name": "Dark Hide",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_rawhide", "t_rawhide_t5", "t_rawhide_t52"]
+    },
+    {
+      "id": "furt3",
+      "name": "Fur",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_fur", "t_fur_t3"]
+    },
+    {
+      "id": "furt4",
+      "name": "Thick Fur",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_fur", "t_fur_t4"]
+    },
+    {
+      "id": "furt5",
+      "name": "InfusedFur",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_fur", "t_fur_t5"]
+    }
+  ]
+}

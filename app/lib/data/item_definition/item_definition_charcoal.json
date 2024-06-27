@@ -1,0 +1,11 @@
+{
+  "item_definition": [
+    {
+      "id": "charcoalt1",
+      "name": "Charcoal",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_charcoal"]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "item_definition": [
+    {
+      "id": "ingott2",
+      "name": "Iron Ingot",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_metal", "t_metal_t2"]
+    },
+    {
+      "id": "ingott3",
+      "name": "Steel Ingot",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_metal", "t_metal_t3"]
+    },
+    {
+      "id": "ingott4",
+      "name": "Starmetal Ingot",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_metal", "t_metal_t4"]
+    },
+    {
+      "id": "ingott5",
+      "name": "Orichalcum Ingot",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_metal", "t_precious_metal", "t_metal_t5"]
+    },
+    {
+      "id": "ingott51",
+      "name": "Asmodeum Ingot",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_metal", "t_precious_metal", "t_metal_t5", "t_metal_legendary"]
+    },
+    {
+      "id": "ingott52",
+      "name": "Mythril Ingot",
+      "tier": 5,
+      "reality": 1,
+      "types": ["t_metal", "t_metal_t5", "t_metal_t52", "t_metal_legendary"]
+    },
+    {
+      "id": "ingott53",
+      "name": "Prismatic Ingot",
+      "tier": 5,
+      "reality": 5,
+      "types": ["t_metal","t_precious_metal",  "t_metal_t5", "t_metal_t52", "t_metal_legendary", "t_prismatic"]
+    },
+    {
+      "id": "ingotprecioust1",
+      "name": "Silver Ingot",
+      "tier": 2,
+      "reality": 1,
+      "types": ["t_precious_metal", "t_precious_metal_t2"]
+    },
+    {
+      "id": "ingotprecioust2",
+      "name": "Gold Ingot",
+      "tier": 3,
+      "reality": 1,
+      "types": ["t_precious_metal", "t_precious_metal_t3"]
+    },
+    {
+      "id": "ingotprecioust3",
+      "name": "Platinum Ingot",
+      "tier": 4,
+      "reality": 1,
+      "types": ["t_precious_metal", "t_precious_metal_t4"]
+    },
+    {
+      "id": "faeiront1",
+      "name": "Fae Iron",
+      "tier": 2,
+      "reality": 2,
+      "types": ["t_metal", "t_metal_t2", "t_metal_rare"]
+    },
+    {
+      "id": "voidmetalt1",
+      "name": "Void Metal",
+      "tier": 3,
+      "reality": 3,
+      "types": ["t_metal", "t_metal_t3", "t_metal_rare"]
+    },
+    {
+      "id": "azuritechunkt1",
+      "name": "Azurite Chunk",
+      "tier": 4,
+      "reality": 4,
+      "types": ["t_metal", "t_metal_t4", "t_metal_rare"]
+    },
+    {
+      "id": "cinnabart1",
+      "name": "Cinnabar",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_metal", "t_metal_t5", "t_metal_rare"]
+    },
+    {
+      "id": "tolviumt1",
+      "name": "Tolvium",
+      "tier": 5,
+      "reality": 4,
+      "types": ["t_metal", "t_metal_t5", "t_metal_rare"]
+    }
+  ]
+}

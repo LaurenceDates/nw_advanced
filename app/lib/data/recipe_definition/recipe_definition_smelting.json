@@ -1,0 +1,604 @@
+{
+  "recipe_definition": [
+    {
+      "id": "charcoalt1",
+      "name": "Recipe: Charcoal",
+      "crafted_item_id": "charcoalt1",
+      "crafted_item_name": "Charcoal",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Wood",
+          "mats": [
+            {"id": "woodt1"},
+            {"id": "woodt2"},
+            {"id": "woodt4"},
+            {"id": "woodt5"},
+            {"id": "woodt52"}
+          ],
+          "amount": 2
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "ingott2",
+      "name": "Recipe: Iron Ingot",
+      "crafted_item_id": "ingott2",
+      "crafted_item_name": "Iron Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Iron Ore",
+          "mats": [
+            {"id": "oret1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "ingott3",
+      "name": "Recipe: Steel Ingot",
+      "crafted_item_id": "ingott3",
+      "crafted_item_name": "Steel Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Iron Ingot",
+          "mats": [
+            {"id": "ingott2"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5", "mod": {"extra_item_chance": 75}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "ingott4",
+      "name": "Recipe: Starmetal Ingot",
+      "crafted_item_id": "ingott4",
+      "crafted_item_name": "Starmetal Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Starmetal Ore",
+          "mats": [
+            {"id": "oret4"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Steel Ingot",
+          "mats": [
+            {"id": "ingott3"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "ingott5",
+      "name": "Recipe: Orichalcum Ingot",
+      "crafted_item_id": "ingott5",
+      "crafted_item_name": "Orichalcum Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Orichalcum Ore",
+          "mats": [
+            {"id": "oret5"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Starmetal Ingot",
+          "mats": [
+            {"id": "ingott4"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "ingott51",
+      "name": "Recipe: Asmodeum",
+      "crafted_item_id": "ingott51",
+      "crafted_item_name": "Asmodeum",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Orichalcum Ingot",
+          "mats": [
+            {"id": "ingott5"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Tolvium",
+          "mats": [
+            {"id": "tolviumt1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Cinnabart1",
+          "mats": [
+            {"id": "cinnabart1"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.19,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "ingott52",
+      "name": "Recipe: Mythril Ingot",
+      "crafted_item_id": "ingott52",
+      "crafted_item_name": "Mythril Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Mythril Ore",
+          "mats": [
+            {"id": "oret52"}
+          ],
+          "amount": 12
+        },
+        {
+          "slot_name": "Orichalcum Ingot",
+          "mats": [
+            {"id": "ingott5"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.22,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "ingott53",
+      "name": "Recipe: Prismatic Ingot",
+      "crafted_item_id": "ingott53",
+      "crafted_item_name": "Prismatic Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Asmodeum",
+          "mats": [
+            {"id": "ingott51"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Mythril Ingot",
+          "mats": [
+            {"id": "ingott52"}
+          ],
+          "amount": 10
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 4
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.50,
+      "extra_item_chance": -30
+    },
+    {
+      "id": "ingotprecioust1",
+      "name": "Recipe: Silver Ingot",
+      "crafted_item_id": "ingotprecioust1",
+      "crafted_item_name": "Silver Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Silver Ore",
+          "mats": [
+            {"id": "oreprecioust1"}
+          ],
+          "amount": 4
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": -2
+    },
+    {
+      "id": "ingotprecioust2",
+      "name": "Recipe: Gold Ingot",
+      "crafted_item_id": "ingotprecioust2",
+      "crafted_item_name": "Gold Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Gold Ore",
+          "mats": [
+            {"id": "oreprecioust2"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Silver Ingot",
+          "mats": [
+            {"id": "ingotprecioust1"}
+         ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5", "mod": {"extra_item_chance": 50}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "ingotprecioust3",
+      "name": "Recipe: Platinum Ingot",
+      "crafted_item_id": "ingotprecioust3",
+      "crafted_item_name": "Platinum Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Platinum Ore",
+          "mats": [
+            {"id": "oreprecioust3"}
+          ],
+          "amount": 6
+        },
+        {
+          "slot_name": "Gold Ingot",
+          "mats": [
+            {"id": "ingotprecioust2"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5", "mod": {"extra_item_chance": 25}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "ingott5precious",
+      "name": "Recipe: Orichalcum Ingot",
+      "crafted_item_id": "ingott5",
+      "crafted_item_name": "Orichalcum Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Orichalcum Ore",
+          "mats": [
+            {"id": "oret5"}
+          ],
+          "amount": 8
+        },
+        {
+          "slot_name": "Platinum Ingot",
+          "mats": [
+            {"id": "ingotprecioust3"}
+          ],
+          "amount": 3
+        },
+        {
+          "slot_name": "Charcoal",
+          "mats": [
+            {"id": "charcoalt1"}
+          ],
+          "amount": 2
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5"}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "faeiront1",
+      "name": "Recipe: Fae Iron",
+      "crafted_item_id": "faeiront1",
+      "crafted_item_name": "Fae Iron",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Iron Ore",
+          "mats": [
+            {"id": "oret1"}
+          ],
+          "amount": 50
+        }
+      ],
+      "tax": 0.01,
+      "extra_item_chance": -20
+    },
+    {
+      "id": "voidsteelt1",
+      "name": "Recipe: Voidmetal",
+      "crafted_item_id": "voidsteelt1",
+      "crafted_item_name": "Voidmetal",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Iron Ore",
+          "mats": [
+            {"id": "oret1"}
+          ],
+          "amount": 100
+        }
+      ],
+      "tax": 0.04,
+      "extra_item_chance": -5
+    },
+    {
+      "id": "blessedcruciblet1",
+      "name": "Recipe: Blessed Crucible",
+      "crafted_item_id": "blessedcruciblet1",
+      "crafted_item_name": "Blessed Crucible",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Starmetal Ore",
+          "mats": [
+            {"id": "oret4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "azuritechunkt1",
+      "name": "Recipe: Azurite Chunk",
+      "crafted_item_id": "azuritechunkt1",
+      "crafted_item_name": "Azurite Chunk",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Starmetal Ore",
+          "mats": [
+            {"id": "oret4"}
+          ],
+          "amount": 150
+        }
+      ],
+      "tax": 0.07,
+      "extra_item_chance": -7
+    },
+    {
+      "id": "tolviumt1",
+      "name": "Recipe: Tolvium",
+      "crafted_item_id": "tolviumt1",
+      "crafted_item_name": "Tolvium",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Orichalcum Ore",
+          "mats": [
+            {"id": "oret5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "cinnabart1",
+      "name": "Recipe: Cinnabar",
+      "crafted_item_id": "cinnabart1",
+      "crafted_item_name": "Cinnabar",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Orichalcum Ore",
+          "mats": [
+            {"id": "oret5"}
+          ],
+          "amount": 250
+        }
+      ],
+      "tax": 0.20,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "voidbentingot",
+      "name": "Recipe: Voidbent Ingot",
+      "crafted_item_id": "voidbentingot",
+      "crafted_item_name": "Voidbent Ingot",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Void Ore",
+          "mats": [
+            {"id": "voidore"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Void Essence",
+          "mats": [
+            {"id": "voidessence"}
+          ],
+          "amount": 1
+        },
+        {
+          "slot_name": "Energy Core",
+          "mats": [
+            {"id": "keypart_core"}
+          ],
+          "amount": 10
+        }
+      ],
+      "tax": 1.00,
+      "extra_item_chance": 0
+    },
+    {
+      "id": "sulfurt1",
+      "name": "Recipe: Sulfur",
+      "crafted_item_id": "sulfurt1",
+      "crafted_item_name": "Sulfur",
+      "amount": 1,
+      "station": "smelter",
+      "skill": "smelting",
+      "ingredients": [
+        {
+          "slot_name": "Sulfur Chunk",
+          "mats": [
+            {"id": "sulfurchunk"}
+          ],
+          "amount": 5
+        },
+        {
+          "slot_name": "Flux",
+          "mats": [
+            {"id": "fluxt5", "mod": {"extra_item_chance": 50}}
+          ],
+          "amount": 1
+        }
+      ],
+      "tax": 0.13,
+      "extra_item_chance": -7
+    }
+  ]
+}
